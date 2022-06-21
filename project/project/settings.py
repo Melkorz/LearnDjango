@@ -103,14 +103,17 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# Смена языка интерфейса проекта
+LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'UTC'
+# Часовой пояс
+TIME_ZONE = 'Asia/Yekaterinburg'
 
+# Включает/отключает систему перевода на указанный язык
 USE_I18N = True
 
+# Включает/отключает систему перевода на указанный часовой пояс
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
