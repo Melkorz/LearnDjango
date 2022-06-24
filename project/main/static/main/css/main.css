@@ -37,7 +37,7 @@ aside ul li{
     color: white;
     display: block;
     margin-top: 10px;
-    transition: all .6s ease;
+    transition: transform .6s ease;
 }
 
 aside ul li:hover, aside a:hover{
