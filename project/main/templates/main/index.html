@@ -18,7 +18,9 @@
 
     {% for v in values %}
         {% if v == 'Hello' %}
-            <p>{{ v }}</p>
+            {% filter upper %}
+                <p>{{ v }}</p>
+            {% endfilter %}
         {% endif %}
     {% endfor %}
 
