@@ -20,7 +20,9 @@
         <p>{{ v }}</p>
     {% endfor %}
 
-    {{ obj.age }}
+    {% for v in obj %}
+        <p>{{ v }}</p>
+    {% endfor %}
 </div>
 {% endblock %}
 
