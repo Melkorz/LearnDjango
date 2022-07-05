@@ -15,7 +15,7 @@ def create(request):
         if form.is_valid():
             form.save()
             # Переход на главную страницу после сохранения
-            return redirect('home')
+            return redirect('news_home')
         else:
             error = 'Неправильное заполнение формы!'
 
