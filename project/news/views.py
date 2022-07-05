@@ -14,10 +14,8 @@ def create(request):
         form = ArticlesForm(request.POST)
         if form.is_valid():
             form.save()
-            # Переход на главную страницу после сохранения
-            return redirect('home')
-    else:
-        error = 'Неправильное заполнение формы!'
+        else:
+            error = 'Неправильное заполнение формы!'
 
     form = ArticlesForm
     data = {
