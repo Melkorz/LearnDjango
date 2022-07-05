@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .models import Articles
-from .form import ArticlesForm
+from .forms import ArticlesForm
 
 
 def news_home(request):
