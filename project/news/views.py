@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import Articles
+from .form import ArticlesForm
 
 
 def news_home(request):
@@ -8,6 +9,8 @@ def news_home(request):
 
 
 def create(request):
-    return render(request, 'news/create.html')
-
-
+    form = ArticlesForm
+    data = {
+        'form': form
+    }
+    return render(request, 'news/create.html', data)
