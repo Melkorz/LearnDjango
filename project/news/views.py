@@ -40,6 +40,6 @@ class NewsUpdateViews(UpdateView):
     form_class = ArticlesForm
 
 
-class NewsUpdateViews(DeleteView):
+class NewsDeleteViews(DeleteView):
     model = Articles
     template_name = 'news/news-delete.html'
