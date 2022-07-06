@@ -44,4 +44,3 @@ class NewsDeleteViews(DeleteView):
     model = Articles
     success_url = '/news/'
     template_name = 'news/news-delete.html'
-
