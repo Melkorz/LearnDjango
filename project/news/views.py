@@ -29,6 +29,6 @@ def create(request):
 
 
 class NewDetailViews(DetailView):
-    model = DetailView
+    model = Articles
     template_name = 'news/details_view.html'
-    context_object_name = 'articles' # Переменная для ключа
+    context_object_name = 'articles'  # Переменная для ключа
