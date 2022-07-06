@@ -43,3 +43,4 @@ class NewsUpdateViews(UpdateView):
 class NewsDeleteViews(DeleteView):
     model = Articles
     template_name = 'news/news-delete.html'
+
