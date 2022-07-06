@@ -37,4 +37,4 @@ class NewDetailViews(DetailView):
 class NewsUpdateViews(UpdateView):
     model = Articles
     template_name = 'news/create.html'
-    fields = ['title', 'anons', 'full_text', 'date']
+    form_class = ArticlesForm
