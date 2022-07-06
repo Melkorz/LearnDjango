@@ -2,5 +2,16 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs + project stages/Занятие 1/LearnDjango" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs + project stages/Занятие 10/LearnDjango" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs + project stages/Занятие 11/LearnDjango" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs + project stages/Занятие 2/LearnDjango" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs + project stages/Занятие 3/LearnDjango" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs + project stages/Занятие 4/LearnDjango" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs + project stages/Занятие 5/LearnDjango" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs + project stages/Занятие 6/LearnDjango" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs + project stages/Занятие 7/LearnDjango" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs + project stages/Занятие 8/LearnDjango" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docs + project stages/Занятие 9/LearnDjango" vcs="Git" />
   </component>
 </project>
